@@ -43,9 +43,9 @@ urlpatterns = [
     path("wallet/", include("wallet.urls")),
 ]
 
-admin.site.site_header = "lizz jul8 mob2"
-admin.site.site_title = "lizz jul8 mob2 Admin Portal"
-admin.site.index_title = "lizz jul8 mob2 Admin"
+admin.site.site_header = "lizz jul8 mob2 - taxi"
+admin.site.site_title = "lizz jul8 mob2 - taxi Admin Portal"
+admin.site.index_title = "lizz jul8 mob2 - taxi Admin"
 
 # swagger
 schema_view = get_schema_view(
